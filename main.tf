@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_instance" "Amazon-Instance" {
+resource "aws_instance" "Red-Hat_Linux" {
   count         = 1
   ami           = "ami-0c101f26f147fa7fd"
   instance_type = "t2.medium"
