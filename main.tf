@@ -10,3 +10,4 @@ resource "aws_instance" "Amazon-Instance" {
    tags = {
     Name = "amazon-Server"
  }
+}
